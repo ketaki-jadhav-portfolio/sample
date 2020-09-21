@@ -1,0 +1,597 @@
+
+@font-face {
+    font-family: 'Irina';
+    src: url('IrinaRegular.eot');
+    src: url('IrinaRegular.eot?#iefix') format('embedded-opentype'),
+        url('IrinaRegular.woff2') format('woff2'),
+        url('IrinaRegular.woff') format('woff'),
+        url('IrinaRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body{
+  background-color:#000000;
+  
+}
+
+#home{
+
+  display:inline-block;
+  float:left;
+  width:60%;
+  margin-left: 3%;
+  padding-top: 5%;
+ 
+}
+h1{
+  display:inline;
+  width:20%;
+  position:relative;
+  left:2%;
+  margin-bottom: 4%;
+  font-family:'Irina';
+  
+
+}
+#k{
+  display: inline;
+  color:#eb4899;
+  text-align:center;
+  font-size:300%;
+   font-family:'Irina';
+
+
+}
+
+
+#j{
+  display:inline;
+  color:#ffffff;
+  text-align:center;
+  font-size:300%;
+   font-family:'Irina';
+
+
+}
+
+
+.subheading{
+  color:#ffffff;
+  font-size:150%;
+  position:relative;
+  left:2%;
+  font-family:Tahoma;
+}
+
+div a{
+  color:#00ccff;
+  text-decoration: none;
+  
+}
+
+#about{
+  color:#ffffff;
+  font-size:140%;
+  margin: 4% 2%;
+  font-family:Tahoma;
+
+}
+
+img{
+   display:inline-block;
+   width:17%;
+   position:relative;
+   right:1%;
+   border: solid #eb4899 2px;
+   -webkit-border-radius:15%;
+   border-radius:50%;
+   padding:4px;
+   margin:5% 1% 0% 1%;
+   
+ 
+ }
+
+
+#phone{
+  background: #000000;
+  color:#ffffff;
+  border:none;
+}
+
+#l{
+  
+  display:inline-block;
+  width:100%;
+  height:50%;
+
+}
+.social{
+  display:inline;
+  color:#eb4899;
+  border-radius:50%;
+  margin:1% 0% 2% 4%;
+  transform-origin: center;
+  transition: transform 1s;
+}
+.social:hover{
+  transform: rotate(360deg);
+}
+#linkedin{
+  text-decoration: none;
+  color:#eb4899;
+}
+#twitter{
+ text-decoration: none;
+ color:#eb4899;
+}
+#insta{
+ text-decoration: none;
+ color:#eb4899;
+}
+
+#edu{
+  display: block;
+  text-align: center;
+  color:#eb4899;
+  font-size:500%;
+  font-family:'Irina';
+  margin:2% 3% 1% 1%;
+   
+}
+
+#Education{
+  margin-left:2%;
+  display:inline-block;
+  height:101vh;
+  clear:both;
+  font-family: Tahoma;
+}
+
+h3{
+  color:#051094;
+  font-size:150%;
+  margin-right: 2%;
+}
+
+h4{
+  color:#000000;
+}
+
+h5{
+  color:#051094;
+  font-size:100%;
+}
+
+.pa{
+  color:#000000;
+}
+
+
+
+#dy{
+  display:inline-block;
+  width:20%;
+  height:56.4%;
+  margin:0% 3% 1% 3%;
+  padding:2%;
+  background:#ffffd1;
+  border-radius:1%;
+  float:left;
+  border:solid 5px #ac3b61;
+ 
+}
+
+#dy:hover{
+  background:#ffe9ec;
+}
+#garware{
+  display:inline-block;
+  width:25%;
+  height:60%;
+  margin:0% 1% 1% 0%; 
+  padding:1%;
+  background:#c2edce;
+  border-radius:1%;
+  float:left;
+  border: solid 5px #ac3b61;
+  
+}
+#garware:hover{
+background: #ffe9ec;
+}
+#pagal{
+  clear:both;
+  margin-top: 5%;
+
+}
+
+#cms{
+  display:inline-block;
+  width:20%;
+  height:55.4%;
+  margin:0% 1% 1% 1%; 
+  padding:2%;
+  background:#aecf80;
+  border-radius:1%;
+  float:left;
+  border: solid 5px #ac3b61;
+
+}
+
+#cms:hover{
+  background: #ffe9ec;
+
+}
+
+#ski{
+   color:#ffffff;
+   display:inline-block;
+   width:100%;
+   height:100vh;
+}
+
+#head{
+  padding-top: 1%;
+  display:block;
+  color:#eb4899;
+  font-size:500%;
+  margin-left: 2%;
+  clear:both;
+  margin:3% 2% 3% 2%;
+}
+
+#left{
+  display:inline-block;
+  width:35%;
+  height:100vh;
+  float:left;
+  margin-left: 5%;
+}
+
+#right{
+  display:inline-block;
+  width:35%;
+  height:100vh;
+  float:left;
+  margin-left: 4%;
+}
+
+.labels{
+  margin:6% 6% 6% 6%;
+}
+
+#Interests{
+  display:inline-block;
+  width:100%;
+  height:100vh;
+  clear:both;
+
+}
+#inte{
+
+  clear:both;
+  display:block;
+  color:#eb4899;
+  margin:3% 3% 2% 1%;
+  font-size:500%;
+  padding-top: 2%;
+}
+
+.example-image{
+  border-radius: 5px;
+  border-left:solid #d3d3d3 1px;
+  border-right: none;
+  border-bottom: none;
+  border-top:none;
+  display: inline-block;
+  width:20%;
+  position:relative;
+  left:2.7%;
+}
+
+#hobby{
+  margin:2% 2% 0% 5%;
+  color:#ffffff;
+  font-size:150%;
+  line-height: 150%;
+  font-family:Tahoma;
+}
+
+
+footer{
+  font-family: Tahoma;
+  font-size:100%;
+  color:#ffffff;
+  padding-bottom: 2px;
+  background-color: #eb4899;
+  display: inline-block;
+  width:100%;
+  height:28px !important;
+  clear:both;
+  position:fixed ;
+  bottom: 0;
+  left:0;
+  right:0;
+  margin-left: 0%;
+  opacity: 0.84;
+
+}
+#f{
+  margin:3px;
+}
+
+
+
+
+progress {
+  padding: 15px 15px;
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow:  0px 1px 2px 0px rgba(0, 0, 0, .2);
+}
+ progress {
+  background-color: #d3d3d3;
+  border: 0;
+  width: 70%;
+  height: 20px;
+  border-radius: 9px;
+}
+
+
+progress::-webkit-progress-bar {
+  background-color: #d3d3d3;
+  border-radius: 9px;
+}
+ progress::-webkit-progress-value {
+  background:#ed6691;
+  background: -moz-linear-gradient(top, #ed6691 0%,#eb175a 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ed6691), color-stop(100%,#eb175a));
+  background: -webkit-linear-gradient(top, #ed6691 0%,#eb175a 100%);
+  background: -o-linear-gradient(top,#ed6691 0%,#eb175a 100%);
+  background: -ms-linear-gradient(top,#ed6691 0%,#eb175a 100%);
+  background: linear-gradient(to bottom, #ed6691 0%,#eb175a 100%);
+ /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed6691', endColorstr='#eb175a',GradientType=0 );*/
+  border-radius: 9px;
+
+}
+
+
+ progress::-moz-progress-bar {
+  background: #ed6691;
+  background: -moz-linear-gradient(top,#ed6691 0%, #eb175a 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ed6691), color-stop(100%,#eb175a));
+  background: -webkit-linear-gradient(top, #ed6691 0%,#eb175a 100%);
+  background: -o-linear-gradient(top,#ed6691 0%,#eb175a 100%);
+  background: -ms-linear-gradient(top,#ed6691 0%,#eb175a 100%);
+  background: linear-gradient(to bottom,#ed6691 0%,#eb175a 100%);
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed6691', endColorstr='#eb175a',GradientType=0 );*/
+  border-radius: 9px;
+}
+ progress {
+  padding: 3px 3px;
+  line-height: 10px;
+  margin-left: 5px;
+  font-size: .8em;
+  color: #555;
+  height: 18px;
+ /* float: right;*/
+}
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  z-index: 1;
+  top:0;
+  left:0;
+  right:0;
+  width:100%;
+  clear:both;
+
+}
+ .main {
+  padding: 16px;
+  margin-top: 30px
+  height:100vh; /* Used in this example to enable scrolling */
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display:inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Tahoma;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #eb4899;
+  color: #000000;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(.active) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  img{
+    display:none;
+    /*display:inline-block;
+    width:24%;
+    border-radius:2px;
+    height:auto;
+    margin:10% 0% 1% 1%;
+    float:left;*/
+  }
+
+  #home{
+    padding-left:3%;
+  }
+
+  #l{
+    padding-left:3%;
+  }
+  h1{
+    position:relative;
+    left:0%;
+    
+
+    
+  }
+  #k{
+    text-align: center;
+     display:inline-block;
+     margin-bottom: 7%;
+     font-size:300%;
+    }
+
+  #j{
+      text-align: center;
+      display:block;
+      font-size:300%;
+
+  }
+
+ #dy{
+    display:inline-block;
+    width:75%;
+    height:auto;
+    margin:3%;
+    padding:3%;
+
+ }
+ #garware{
+    display:inline-block;
+    width:75%;
+    height:auto;
+    margin:3%;
+    padding:3%;
+ }
+
+ #cms{
+    display:inline-block;
+    width:75%;
+    height:auto;
+    margin:3% 2%;
+    padding:3%;
+    clear:both;
+ }
+
+ #edu{
+   margin: 5% 0% 3% 2%;
+   font-size:400%;
+ }
+ #Education{
+  display:block;
+ }
+ #pagal{
+  clear:both;
+ }
+ 
+ #left{
+  float:none;
+  height:auto;
+  width:100%;
+ }
+ #right{
+  float:none;
+  height:auto;
+  width:100%;
+ }
+ #about{
+  font-size: 120%;
+  display:inline-block;
+  width:80vw;
+ }
+ .subheading{
+  font-size: 140%;
+  display:inline-block;
+  width:70vw;
+ }
+ #head{
+  font-size: 420%;
+ }
+
+ progress{
+ width:60%;
+ }
+
+ #hobby{
+  margin:4%;
+  font-size: 140%;
+ }
+ #inte{
+  font-size:400%;
+  margin:2%;
+ }
+ footer{
+  opacity:1;
+ }
+
+ #Education{
+   margin-top: 0;
+   padding-top:0;
+   text-align: top;
+ }
+.example-image{
+  width:40%;
+  height:auto;
+ }
+
+ }
